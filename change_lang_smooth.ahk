@@ -1,4 +1,4 @@
-; AutoHotkey script to switch text between English and Russian keyboard layouts
+﻿; AutoHotkey script to switch text between English and Russian keyboard layouts
 #Persistent
 #NoEnv
 
