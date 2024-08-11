@@ -24,11 +24,9 @@ def change_text():
     time.sleep(0.1)
     
     changed_text = "".join(map(change_letter, text))
-    # print(changed_text)
-    # press_release("ctrl+a", 0.3)
-    # press_release("backspace", 0.2)
     k.write(changed_text, delay=0.02)
     
 k.add_hotkey("insert", change_text)
+k.add_hotkey("ctrl+shift+\\", exit)
 k.wait()
 
