@@ -1,7 +1,9 @@
 # About
-Small script that will turn all your *ghbdtn* to *привет*. Basically like you would change keyboard layout and retype all the text.
+Small script that will turn all your **ghbdtn** to **привет**. Basically like you would change keyboard layout and retype all the text.
+Only Russian and English US. 
 ## Warnings
 Python version sucks and only works from time to time but works
+Autohotkey version also not as good and may be optimized but i dont care
 ### Rewrites ALL TEXT THAT CAN BE SELECTED IN current scope/field
 ## Hotkey:
 ```<insert>```
@@ -29,3 +31,11 @@ Haven't tested on linux though. Maybe works.
 ## Difference between normal and smooth version
 basicaly normal version just pastes the text while smooth version inputs every symbol every 20ms
 
+# Change for your layout
+For your layout you can change variables in autohotkey script: 
+```
+english := "qwertyuiop[]asdfghjkl;'zxcvbnm,QWERTYUIOP{}ASDFGHJKL:""ZXCVBNM<>~"
+russian := "йцукенгшщзхъфывапролджэячсмитьбюёЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮЁ"
+```
+(for python idc i hate how it works)
+Maybe i will make a version that depends on a file and will cycle more layouts but idk
